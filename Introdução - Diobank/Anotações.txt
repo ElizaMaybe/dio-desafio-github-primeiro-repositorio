@@ -1,0 +1,27 @@
+Introdução - Diobank (Usuários acessarem)
+
+
+No caso inicial estaremos aprendendo com a intenção de criar uma plataforma para um banco digital o Diobank.
+
+- Primeiramente defirnir plataformas
+
+Elas podem ser:
+
+Sistema Desktop;              Não usaremos esse
+Sistema via Web;              Usaremos esse
+Aplicativo (Andorid e IOS).   Usaremos esse
+
+- Quais são as pessoas envolvida para esse desenvolvimento?
+
+UX Desing (User Experiennce)
+UI Desing (User Interface)
+Front End (Modelo Cliente-Servidor)
+Framework (Facilitador)
+Back End  (Ponte entre dados do navegador ruma ao banco de dados)
+Full Stake(Alguem que trabalha com Back End e Front End)
+QA        (Trabalha realizando teste para entregar qualidade)
+Infraestrutura (CLIENTE  ----- INTERNET ----- SERVIDOR)
+Cloud     (Profissional de Claoud Computing)
+Mobile    (Desenvolvedor Mobile: Android/hibrido/IOS)
+
+
