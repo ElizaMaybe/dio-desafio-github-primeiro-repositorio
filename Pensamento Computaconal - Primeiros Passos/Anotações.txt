@@ -1,0 +1,51 @@
+Primeiros Passos
+
+Pensamento Computacional
+
+  Ele é sistematico e eficiente.
+  Precisar ser capaz de resolver (uma habilidade generalista matematica/leitura/escrita)
+
+Baseado em 4 pilares:
+
+- Decomposição;
+- Reconhecimento de padrões;
+- Abstração;
+- Desgn de algoritimos
+
+Habilidades Complementares:
+
+- Raciocinio logico= uma forma de pensamento estruturado que permite encontrar condição.
+
+ Classificação:
+
+Indução (Apartir da observação)
+Dedução (Leis e teorias)
+Abdução (Apartir da conclusão premissa)
+
+- Aperfeiçoamento= apartir de uma soluçao, determina pontos de melhoria e refinamento.
+
+Encontrar solução eficiente;
+Otimizar processos;
+Simplificar linhas de codigos;
+Funçõess bem definidas.
+
+Pilares: Decomposição
+
+  Dado um problema complexo, devemos quebra-lo em problemas menores.
+
+Pilares: Padrões
+
+  Porque derterminar padrões? Generalizar com o objetivo de obter resoluções para problemas diferentes.
+  Como o computador reconhece padrões? Representando os atributos/ Aprendizado/ Armazenar dados/ Regras de decisões.
+
+Pilares: Abstração
+
+  Generalização, é a operação intelectual que consiste em reunir uma classe geral, um conjunto de cores ou fenomenos similares.
+  Como classificar dados: Caracteristicas/Pontos essenciais/Generalizarxdetalhar.
+
+Pilares: Algoritimo
+
+  Estudo e definição dos dados de entrada e saida (Analise)
+  Descrever o problema por meio de ferramentas narrativas, fluxograma ou pseudocodigos
+  O algoritimo é codificado de acordo com a linguagem de programação escolhida.
+

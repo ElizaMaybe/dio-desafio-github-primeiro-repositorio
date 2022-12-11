@@ -1,0 +1,93 @@
+Introdução ao Git e GitHub
+
+
+Git é um sistema de versionamento de codigo ditribuido.
+
+GITINIT além de criar a pasta, ela incializa o conceito do GIT chamado repositorio, criando um repositorio dentro da diretoria(pasta).
+
+- Benefícios:
+
+Controle de versão;
+Armazenamento em nuvem;
+Trabalho em equipe;
+Melhorar seu codigo;
+Reconhecimento.
+
+- Comandos basicos para um bom desempenho no terminal:
+
+GUI x CLI
+
+GUI= Tem interface, é quando você cria a pasta manualmente sem utilização do Git.
+CLI= Não tem interface grafica (interagir com linha de comando)
+
+- O que vamos aprender:
+
+Mudar de pastas;
+Listar as pastas;
+Criar pastas/Arquivo;
+Deletar pastas/Arquivo.
+
+- Comandos:
+
+                        WINDOWS        /           UNIX
+   
+
+Entar na pasta=           cd           /            cd
+Listar=                   dir          /            ls
+Criar pasta=              mkdir        /            mkldir
+Deletar arquivo=          del          /            rm
+Deletar tudo=             rmdir/s/o    /            rm rf
+Limpar=               csl ou conto + L /
+Voltar a pasta anterioe=   cd ..       /            cd ..
+
+
+- Como funciona o Git por baixo dos panos?
+
+SHA1= Algoritimo de criptação, que gera um conjunto de 40 caracteres unicos.
+Objetos fundamentais;
+Sistema distribuidos;
+Segurança.
+
+- Objetos internos do Git:
+
+Blobs= Responsáveis por guardar p sha1 (blobs 9/0)
+Tress= Responsáveis por montar toda a estrutura de onde estar os arquivos.
+Commits= Junta tudo, ou seja, responsavel por dar sentido no qual se pode escrever um nome.
+
+- Desenhando um esboço:
+
+    COMMITE    /     TREE   /    BLOBS
+ 
+  - TREE       /   - BLOBS  /
+  - AUTOR      /   - BLOBS  /
+  - COMMIT     /   - BLOBS  /
+
+- Por que é seguro:
+
+  Por causa de toda a estrutura que foi formada.
+
+- Chaves SSH e tokens
+
+Chave SSH é uma forma de estabelecer uma conexão segura e incripitada entre duass maquinas.
+
+- TRACKED ou UNTRACKED
+
+Umodified= arquivo que ainda não foi modificado 
+Modified= arquivo que sofreu modificação
+Staged= é onde fica os arquivo se preparando para fazer parte de outro tipo de agrupamento (esta esperando para entrar no palco)
+
+   Quando você adicona o arquivo ele deixa de ser untracked (ou seja, o Git não tinha conhecimento dele), ele é movido para STAGED.
+   Quando o arquivo é modificado, ele também é movido para STAGED
+   Ou seja, ele transita no ambiente de desenvolvimento.
+
+- Amnbiente de trabalho é composto por:
+
+WORKING DIRECTORY
+STAGEING AREA
+LOCAL REPOSITORY
+
+   Quando você coloca os arquivos para "funcionar", você COMMITAR (move do staged para ummodified, criando um snpchat ou seja uma foto)
+
+- Servidor
+
+REMOTE REPOSITORY
